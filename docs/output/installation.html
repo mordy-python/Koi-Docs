@@ -15,14 +15,15 @@
 
 <body>
     <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width: 200px;" id="sidebar">
-        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="close_menu()">Close &times;</button>
+        <button class="w3-bar-item close-button w3-large w3-hide-large" onclick="close_menu()">Close &times;</button>
         <div class="w3-bar-item">Contents</div>
         <a href="/" class="w3-bar-item">Home</a>
         <a href="installation.html" class="w3-bar-item">Installation</a>
+        <a href="getting-started.html" class="w3-bar-item">Getting Started</a>
     </div>
     <div class="w3-main" style="margin-left:200px">
         <div>
-            <button class="w3-button w3-xlarge w3-hide-large" onclick="open_menu()">&#9776;</button>
+            <button class="menu-button w3-xlarge w3-hide-large" onclick="open_menu()">&#9776;</button>
             <div class="w3-container">
                 <h1 align="center">Koi Documentation</h1>
             </div>
@@ -39,14 +40,36 @@
 <ul>
 <li><a href="#installing-from-source">Installing From Source</a></li>
 <li><a href="#installing-a-pre-built-binary">Installing A Pre-built Binary</a></li>
+<li><a href="#deprecated-installing-with-pip">(Deprecated) Install With Pip</a></li>
 </ul>
 <h4>Installing From Source</h4>
+<blockquote>
+<p>Make sure you have Deno installed</p>
+</blockquote>
 <ol>
 <li>Download the source code with git: <code>git clone https://github.com/mordy-python/KoiDeno</code></li>
 <li>Change into the source code directory: <code>cd KoiDeno</code></li>
+<li>Compile the TypeScript Code using <code>deno compile src/koi.ts</code></li>
+<li>You can now use the Koi executable file to run Koi code.</li>
 </ol>
 <h4>Installing A Pre-built Binary</h4>
+<ol>
+<li>You can download a pre-compiled exectuble file from <a href="https://github.com/mordy-python/KoiDeno/releases/">Github</a></li>
+<li>Add the executable to your PATH and you're good to go</li>
+</ol>
+<h3>(Deprecated) Installing With Pip</h3>
+<blockquote>
+<p>There is an outdated version of Koi on <a href="https://pypi.org/project/Koi-Language/">Pypi</a></p>
+</blockquote>
+<ol>
+<li>Install it with <code>pip install Koi-Language</code></li>
+<li>You can run Koi with the <code>koi</code> command in your terminal</li>
+</ol>
 </article>
+<div class="next-bar">
+    <a class="button" href="/index.html">Back</a>
+    <a class="button" href="/getting-started.html">Next</a>
+</div>
         </main>
     </div>
     <script>
