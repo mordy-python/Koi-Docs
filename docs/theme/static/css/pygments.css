@@ -35,7 +35,7 @@ span.linenos.special {
 }
 
 .c {
-    color: #3D7B7B;
+    color: #bd93f9;
     font-style: italic
 }
 
@@ -57,13 +57,13 @@ span.linenos.special {
 
 /* Operator */
 .ch {
-    color: #3D7B7B;
+    color: #bd93f9;
     font-style: italic
 }
 
 /* Comment.Hashbang */
 .cm {
-    color: #3D7B7B;
+    color: #bd93f9;
     font-style: italic
 }
 
@@ -74,19 +74,19 @@ span.linenos.special {
 
 /* Comment.Preproc */
 .cpf {
-    color: #3D7B7B;
+    color: #bd93f9;
     font-style: italic
 }
 
 /* Comment.PreprocFile */
 .c1 {
-    color: #3D7B7B;
+    color: #bd93f9;
     font-style: italic
 }
 
 /* Comment.Single */
 .cs {
-    color: #3D7B7B;
+    color: #bd93f9;
     font-style: italic
 }
 
