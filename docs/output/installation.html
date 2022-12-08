@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Koi Documentation - Installation</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="theme/css/styles.css">
+
+
+
+</head>
+
+<body>
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width: 200px;" id="sidebar">
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="close_menu()">Close &times;</button>
+        <div class="w3-bar-item">Contents</div>
+        <a href="/" class="w3-bar-item">Home</a>
+        <a href="installation.html" class="w3-bar-item">Installation</a>
+    </div>
+    <div class="w3-main" style="margin-left:200px">
+        <div>
+            <button class="w3-button w3-xlarge w3-hide-large" onclick="open_menu()">&#9776;</button>
+            <div class="w3-container">
+                <h1 align="center">Koi Documentation</h1>
+            </div>
+        </div>
+        <main class="w3-container">
+<header>
+    <h1 class="entry-title">
+        <a href="/installation.html" rel="bookmark" title="Permalink to Installation">Installation</a>
+    </h1>
+</header>
+<article>
+    <h3>Installing Koi</h3>
+<p>There are two ways to install Koi</p>
+<ul>
+<li><a href="#installing-from-source">Installing From Source</a></li>
+<li><a href="#installing-a-pre-built-binary">Installing A Pre-built Binary</a></li>
+</ul>
+<h4>Installing From Source</h4>
+<ol>
+<li>Download the source code with git: <code>git clone https://github.com/mordy-python/KoiDeno</code></li>
+<li>Change into the source code directory: <code>cd KoiDeno</code></li>
+</ol>
+<h4>Installing A Pre-built Binary</h4>
+</article>
+        </main>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("sidebar").style.display = "block";
+        }
+
+        function close_menu() {
+            document.getElementById("sidebar").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

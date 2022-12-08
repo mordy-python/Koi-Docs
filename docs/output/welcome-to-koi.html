@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Koi Documentation - Welcome to Koi</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="theme/css/styles.css">
+
+
+
+</head>
+
+<body>
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width: 200px;" id="sidebar">
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="close_menu()">Close &times;</button>
+        <div class="w3-bar-item">Contents</div>
+        <a href="/" class="w3-bar-item">Home</a>
+        <a href="installation.html" class="w3-bar-item">Installation</a>
+    </div>
+    <div class="w3-main" style="margin-left:200px">
+        <div>
+            <button class="w3-button w3-xlarge w3-hide-large" onclick="open_menu()">&#9776;</button>
+            <div class="w3-container">
+                <h1 align="center">Koi Documentation</h1>
+            </div>
+        </div>
+        <main class="w3-container">
+<header>
+    <h1 class="entry-title">
+        <a href="/welcome-to-koi.html" rel="bookmark" title="Permalink to Welcome to Koi">Welcome to Koi</a>
+    </h1>
+</header>
+<article>
+    <h3>Koi is a little scripting language similar to JavaScript</h3>
+<h4>Features</h4>
+<ul>
+<li><a href="/classes.html">Classes</a></li>
+<li><a href="/functions.html">Functions</a></li>
+<li><a href="/stdlib.html">Standard Library</a></li>
+</ul>
+<h4>Code Sample</h4>
+<div class="highlight"><pre><span></span><code><span class="kd">class</span><span class="w"> </span><span class="nx">Koi</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="nx">init</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">name</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+<span class="w">  </span><span class="nx">swim</span><span class="p">(</span><span class="nx">to</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="nx">print</span><span class="p">(</span><span class="s2">&quot;Swimming to &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">to</span><span class="p">);</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">koi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Koi</span><span class="p">(</span><span class="s2">&quot;fishy&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="nx">koi</span><span class="p">.</span><span class="nx">swim</span><span class="p">();</span><span class="w"></span>
+</code></pre></div>
+
+<ul>
+<li>Koi is multi-paradigm</li>
+<li>Koi is small: there are only 911 semicolons in the entire codebase</li>
+<li>Koi is being improved every single day</li>
+</ul>
+</article>
+        </main>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("sidebar").style.display = "block";
+        }
+
+        function close_menu() {
+            document.getElementById("sidebar").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

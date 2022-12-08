@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+    {% set article = articles_page.object_list[0] %}
+    <article class="hentry">
+        <header>
+            <h2 class="entry-title" align="Center">{{ article.title }}</a></h2>
+        </header>
+        <div class="entry-content"> {{ article.content }} </div>
+        <div class="next-bar">
+            {% if article.prev %}
+            <a class="button" href="{{ SITEURL }}/{{article.prev}}">Back</a>
+            {% endif %}
+            {% if article.next %}
+            <a class="button" href="{{ SITEURL }}/{{article.next}}">Next</a>
+            {% endif %}
+        </div>
+    </article>
+</section>
+{% endblock content %}
