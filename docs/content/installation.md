@@ -1,6 +1,7 @@
 Title: Installation
 Date: 2022-12-07 12:00
 Prev: index.html
+Next: getting-started.html
 
 ### Installing Koi
 
