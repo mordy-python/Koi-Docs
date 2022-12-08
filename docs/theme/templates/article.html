@@ -22,4 +22,12 @@
 <article>
     {{ article.content }}
 </article>
+<div class="next-bar">
+    {% if article.prev %}
+    <a class="button" href="{{ SITEURL }}/{{article.prev}}">Back</a>
+    {% endif %}
+    {% if article.next %}
+    <a class="button" href="{{ SITEURL }}/{{article.next}}">Next</a>
+    {% endif %}
+</div>
 {% endblock %}
