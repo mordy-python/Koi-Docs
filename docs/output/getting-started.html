@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Koi Documentation - Getting Started With Koi</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="theme/css/styles.css">
+
+
+
+</head>
+
+<body>
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width: 200px;" id="sidebar">
+        <button class="w3-bar-item close-button w3-large w3-hide-large" onclick="close_menu()">Close &times;</button>
+        <div class="w3-bar-item">Contents</div>
+        <a href="/" class="w3-bar-item">Home</a>
+        <a href="installation.html" class="w3-bar-item">Installation</a>
+        <a href="getting-started.html" class="w3-bar-item">Getting Started</a>
+    </div>
+    <div class="w3-main" style="margin-left:200px">
+        <div>
+            <button class="menu-button w3-xlarge w3-hide-large" onclick="open_menu()">&#9776;</button>
+            <div class="w3-container">
+                <h1 align="center">Koi Documentation</h1>
+            </div>
+        </div>
+        <main class="w3-container">
+<header>
+    <h1 class="entry-title">
+        <a href="/getting-started-with-koi.html" rel="bookmark" title="Permalink to Getting Started With Koi">Getting Started With Koi</a>
+    </h1>
+</header>
+<article>
+    <p><br /></p>
+<h6>The Print Function</h6>
+<p>A Classic "Hello, World" Program</p>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, World!&quot;</span><span class="p">);</span>
+</code></pre></div>
+
+<p>Koi has a <code>print</code> and a <code>println</code> function built in to the standard library.</p>
+<div class="highlight"><pre><span></span><code><span class="n">println</span><span class="p">(</span><span class="s">&quot;Hello, World!&quot;</span><span class="p">);</span><span class="w"></span>
+</code></pre></div>
+
+<p><br/></p>
+<h6>Variables and Assignment</h6>
+<p>Variables are declared with the <code>var</code> keyword.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">var</span><span class="w"> </span><span class="nx">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;fishy face&quot;</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+
+<p>Once a variable is declared it can be re-assigned to any value of any type.</p>
+<div class="highlight"><pre><span></span><code><span class="nx">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Fishy&quot;</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+</article>
+<div class="next-bar">
+    <a class="button" href="/installation.html">Back</a>
+</div>
+        </main>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("sidebar").style.display = "block";
+        }
+
+        function close_menu() {
+            document.getElementById("sidebar").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
